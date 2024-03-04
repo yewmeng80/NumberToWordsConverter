@@ -50,7 +50,7 @@
                                         <asp:TextBox ID="txtInput" runat="server" CssClass="form-control"></asp:TextBox>     
                                          <asp:RequiredFieldValidator id="rfvInput" runat="server" ControlToValidate="txtInput" ErrorMessage="Input is a required field." Display="Dynamic" ForeColor="Red" />                      
                                         <asp:RangeValidator ID="rvInput" runat="server"
-                                        ControlToValidate="txtInput" ErrorMessage="Invalid input. Please enter value between 0 to 999" MaximumValue="999"
+                                        ControlToValidate="txtInput" ErrorMessage="Invalid input. Please enter value between 0 to 999.99" MaximumValue="999.99"
                                         MinimumValue="0" Display="Dynamic" ForeColor="Red" Type="Double"></asp:RangeValidator>
                                       </div>                                       
                                  </div> 
